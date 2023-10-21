@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "chart_app",
+    'name': "data_bulk_upload_app",
 
     'summary': """
-        Enhance your business analytics with advanced charts""",
+        Enhance your business with data bulk upload capabilities""",
 
     'description': """
-        Chart App - Advanced Analytics for Your Business
+        Data Bulk Upload App - Advanced Data Management for Your Business
 
         Features:
-        - Intuitive chart generation
+        - Intuitive bulk data upload
         - Integration with major Odoo modules
         - Customizable views for your specific business needs
         - User-friendly interface
         
-        Benefit from insightful data visualization tools and elevate your decision-making process with Chart App.
+        Benefit from advanced data management tools and streamline your business operations with Data Bulk Upload App.
     """,
 
     'author': "Tarek Eissa",
@@ -22,7 +22,7 @@
     'contributors': [""],
     'website': "https://www.prospexai.com",
     
-    'category': 'Analytics',
+    'category': 'Data Management',
     'version': '1.0',
 
     'license': "Other proprietary",
@@ -31,30 +31,15 @@
     'data': [
         'security/ir.model.access.csv',
         'views/views.xml',
-        'views/chart_list.xml',
-        'views/chart_detial.xml',
-    ],
-    'qweb': [
-        'static/src/xml/custom_chart.xml',
-    ],
 
-    'assets': {
-        'web.assets_backend': [
-            'chart_app/static/src/js/execute_js.js',
-        ],
-    },
-
-    'demo': [
-        'demo/demo.xml',
     ],
-
     'images': [
         'static/description/main_screenshot.png',
         'static/src/img/pngwing.com.png'
     ],
 
-    'price': 49.99,       # Added this line for pricing
-    'currency': 'USD',    # Added this line for currency
+    'price': 49.99,
+    'currency': 'USD',
 
     'application': True,
     'installable': True,
